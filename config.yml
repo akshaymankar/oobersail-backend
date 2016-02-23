@@ -1,0 +1,8 @@
+development:
+  client_secret: <%= ENV['CLIENT_SECRET'] %>
+  client_id: aVJ8f5DEBDh2qPZa7G9MsUGJeLlNpyUC
+  redirect_uri: 'http://localhost:4567'
+production:
+  client_secret: <%= ENV['CLIENT_SECRET'] %>
+  client_id: dgZ6o3O4UwF2dLV1HTtYUNqHZv2odUZq
+  redirect_uri: 'http://oobersail.axeman.in'
