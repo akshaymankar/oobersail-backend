@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'rest-client'
 require 'yaml'
-require 'erubis'
+require 'erb'
 
 ENV['RACK_ENV'] ||= 'development'
 config = YAML.load(ERB.new(File.read('config.yml')).result)[ENV['RACK_ENV']]
